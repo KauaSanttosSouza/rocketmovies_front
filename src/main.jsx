@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Header } from './Pages/New'
+import { Header } from './Components/Header'
 import GlobalStyles from "./styles/global"
 import { ThemeProvider } from 'styled-components'
 
