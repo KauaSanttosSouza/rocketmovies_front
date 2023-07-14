@@ -1,10 +1,11 @@
 import { Container, User } from "./styles"
+import { Input } from "../Input"
 
 export function Header() {
    return (
       <Container>
          <h1>RocketMovies</h1>
-         <input type="text" placeholder="Pesquisar por titulos" />
+         <Input type="text" placeholder="Pesquisar por titulos" />
          <User>
             <div>
                <h1>
